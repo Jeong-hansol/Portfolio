@@ -7,7 +7,9 @@
 @import url(https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&family=Patua+One&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap);
-
+@import url(https://fonts.googleapis.com/css2?family=Sora&display=swap);
+
+
 *{
 	padding: 0;
 	list-style: none;
@@ -374,26 +376,155 @@ body {
   padding: 40px 30px 40px 30px;
   margin: auto;
 }
-
-.list_1 {
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 13.5px;
-}
-
+
+.can_img {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.can_img img {
+  width: 50px;
+  height: 50px;
+}
+
 .development {
   vertical-align: top;
   width: 33%;
   display: inline-block;
 }
+
+.list_development {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 13.5px;
+	margin-bottom: 50px;
+}
 
 .design {
   vertical-align: top;
   width: 33%;
   display: inline-block;
 }
+
+.list_design {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 13.5px;
+	margin-bottom: 170px;
+}
 
 .others {
   vertical-align: top;
   width: 33%;
   display: inline-block;
 }
+
+.list_others {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 13.5px;
+	margin-bottom: 250px;
+}
+
+/* progress bar */
+.container {
+  width: 100%;
+	height: 100%;
+}
+
+.prg_title {
+	font-family: 'Sora', sans-serif;
+	font-size: 15px;
+	padding-left: 2px;
+}
+
+.prg_number {
+	font-family: 'Bree Serif', serif;
+	font-size: 15px;
+	float: right;
+}
+
+.progress {	/* progress bar 배경 */
+  padding: 3px;
+  background: rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+}
+
+.progress-bar {
+  height: 3px;
+  border-radius: 4px;
+  transition: 0.4s linear;
+}
+
+/* 100% */
+.progress-striped_100 .progress-bar {
+  background-color: #80ddff;
+  width: 100%;	/* 마지막 게이지 표시 */
+  background-image: linear-gradient( /* 그라디언트 효과  */
+        45deg, transparent 30%,
+        rgb(20,200,255) 50%);
+  animation: progressAnimationStrike_100 2.5s;	/* 게이지 시간 */
+}
+
+@keyframes progressAnimationStrike_100 {	/* 게이지 구간 0~100% */
+     from { width: 0 }
+     to   { width: 100% }
+}
+
+/* 90% */
+.progress-striped_90 .progress-bar {
+  background-color: #80ddff;
+  width: 90%;
+  background-image: linear-gradient(
+        45deg, transparent 30%,
+        rgb(20,200,255) 50%);
+  animation: progressAnimationStrike_90 2.5s;
+}
+
+@keyframes progressAnimationStrike_90 {
+     from { width: 0 }
+     to   { width: 90% }
+}
+
+/* 80% */
+.progress-striped_80 .progress-bar {
+  background-color: #80ddff;
+  width: 80%;
+  background-image: linear-gradient(
+        45deg, transparent 30%,
+        rgb(20,200,255) 50%);
+  animation: progressAnimationStrike_80 2.5s;
+}
+
+@keyframes progressAnimationStrike_80 {
+     from { width: 0 }
+     to   { width: 80% }
+}
+
+/* 70% */
+.progress-striped_70 .progress-bar {
+  background-color: #80ddff;
+  width: 70%;
+  background-image: linear-gradient(
+        45deg, transparent 30%,
+        rgb(20,200,255) 50%);
+  animation: progressAnimationStrike_70 2.5s;
+}
+
+@keyframes progressAnimationStrike_70 {
+     from { width: 0 }
+     to   { width: 70% }
+}
+
+/* 30% */
+.progress-striped_30 .progress-bar {
+  background-color: #80ddff;
+  width: 30%;
+  background-image: linear-gradient(
+        45deg, transparent 30%,
+        rgb(20,200,255) 50%);
+  animation: progressAnimationStrike_30 2.5s;
+}
+
+@keyframes progressAnimationStrike_30 {
+     from { width: 0 }
+     to   { width: 30% }
+}
