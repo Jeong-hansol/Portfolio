@@ -528,3 +528,98 @@ body {
      from { width: 0 }
      to   { width: 30% }
 }
+
+/* PERSONALITY */
+#per_title {
+  margin: 0 auto;
+  width: 70%;
+  height: 100%;
+  margin-top: 70px;
+  margin-bottom: 1rem;
+}
+
+#per_title h1 {
+  font-size: 30px;
+}
+
+.progress-circle-container {
+	text-align: center;
+}
+
+.progress-circle {
+  position: relative;
+  display: inline-block;
+  margin: 2rem;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #ebebeb;
+}
+
+.progress-circle:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  animation: colorload 2s;
+}
+
+.progress-circle h5 {
+	letter-spacing: 3px;
+	position: absolute;
+	left: 30%;
+	top: 100%;
+	z-index: 1;
+}
+
+.progress-circle span {
+  font-size: 1rem;
+  color: #8b8b8b;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  margin-left: -30px;
+  margin-top: -30px;
+  text-align: center;
+  border-radius: 50%;
+  background: #fff;
+  z-index: 1;
+}
+
+/* 97% */
+.progress-circle.progress-97:after {
+  background-image: linear-gradient(70deg, #66b8ff 50%, transparent 50%),
+										linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%);
+}
+
+/* 96% */
+.progress-circle.progress-96:after {
+  background-image: linear-gradient(60deg, #66b8ff 50%, transparent 50%),
+										linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%);
+}
+
+/* 95% */
+.progress-circle.progress-95:after {
+  background-image: linear-gradient(50deg, #66b8ff 50%, transparent 50%),
+										linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%);
+}
+
+/* 94% */
+.progress-circle.progress-94:after {
+  background-image: linear-gradient(40deg, #66b8ff 50%, transparent 50%),
+										linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%);
+}
+
+@keyframes colorload {	/* 구간 0~360deg */
+  0% {
+    opacity: 0;
+    transform: rotate(0deg); }
+  100% {
+    opacity: 1;
+    transform: rotate(360deg); }
+}
