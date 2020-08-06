@@ -779,3 +779,174 @@ figure.snap.hover figcaption {
   opacity: 1;
   transition-delay: 0.2s;
 }
+
+/* PORTFOLIO */
+#main .port_title {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  margin-top: 130px;
+	margin-bottom: 80px;
+}
+
+#main .port_title h1 {
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 50px;
+  color: #353535;
+  text-align: center;
+}
+
+.port_title hr{
+  width: 150px;
+  border: 2px solid #EAEAEA;
+}
+
+#portfolio {
+	width: 95%;
+	height: 3000px;
+	margin: auto;
+	overflow: hidden;
+	background-color: #F6F6F6;
+}
+
+#portfolio .inner .pfwrap {
+	position: relative;
+	height: 500px;
+	margin-top: 200px;
+}
+
+#portfolio .inner .pfwrap .imgBox {
+	position: absolute;
+	top: 0;
+	width: 60%;
+}
+
+#portfolio .inner .pfwrap .imgBox .imgBg {
+	width: 100%;
+	height: 500px;
+}
+
+#portfolio .inner .pfwrap .txtBox {
+	position: absolute;
+	top: 10px;
+}
+
+#portfolio .inner .pfwrap .txtBox .headline {
+	font-family: 'Jua', sans-serif;
+	font-size: 40px;
+	text-align: right;
+	margin-top: -90px;
+	padding-bottom: 10px;
+}
+
+#portfolio .inner .pfwrap .txtBox .lightHeadline {
+	font-family: 'Sora', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin: 16px 0 24px;
+	text-align: right;
+}
+
+#portfolio .inner .pfwrap.wrap1 .txtBox hr {
+	width: 120px;
+	height: 1px;
+	float: left;
+	border: 2px solid #fed7e2;
+	background-color: #fed7e2;
+}
+
+#portfolio .inner .pfwrap .txtBox .viewport {
+	font-family: 'Sora', sans-serif;
+	font-size: 18px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+#portfolio .inner .pfwrap .txtBox .viewport span {
+	font-size: 15px;
+	padding-left: 40px;
+}
+
+#portfolio .inner .pfwrap .txtBox .palette {
+	font-family: 'Sora', sans-serif;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+
+#portfolio .inner .pfwrap .txtBox .palette .palette_img {
+	display: inline-block;
+	margin-left: 57px;
+}
+
+#portfolio .inner .pfwrap .txtBox .palette .palette_img img {
+	width: 20px;
+	height: 20px;
+	margin-bottom: -3px;
+	padding-left: 3px;
+}
+
+#portfolio .inner .pfwrap .txtBox .caption {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	margin: 16px 0 35px;
+	line-height: 30px;
+}
+
+#portfolio .inner .pfwrap .txtBox .pfbtn {
+  position: relative;
+  width: 200px;
+  height: 50px;
+	left: 30%;
+}
+
+#portfolio .inner .pfwrap .txtBox .pfbtn.btn1 .btnBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 50px;
+  background: linear-gradient(-90deg,#fbb6ce -50%,#fed7e2 100%);
+  transition: width 250ms;
+}
+
+#portfolio .inner .pfwrap .txtBox .pfbtn.btn1 a {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 50px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: #000;
+  line-height: 46px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-image: linear-gradient(-90deg,#c76fa5 -50%,#fbb6ce 100%);
+  border-image-slice: 1;
+  transition: all 200ms;
+}
+
+#portfolio .inner .pfwrap .txtBox .pfbtn:hover .btnBg {
+	width: 200px;
+}
+
+#portfolio .inner .pfwrap .txtBox .pfbtn:hover a {
+	color: #fff;
+}
+
+#portfolio .inner .pfwrap .imgBox {
+	right: 5%;
+}
+
+#portfolio .inner .pfwrap .txtBox {
+	right: 55%;
+}
+
+#portfolio .inner .wrap1 .imgBox .imgBg img {
+	width: 700px;
+	margin: -100px 0 0 200px;
+}
