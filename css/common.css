@@ -815,6 +815,15 @@ figure.snap.hover figcaption {
 	margin-top: 200px;
 }
 
+#portfolio .inner .pfwrap.wrap2 {
+	margin-top: 250px;
+	margin-left: 50px;
+}
+
+#portfolio .inner .pfwrap.wrap3 {
+	margin-top: 210px;
+}
+
 #portfolio .inner .pfwrap .imgBox {
 	position: absolute;
 	top: 0;
@@ -853,6 +862,22 @@ figure.snap.hover figcaption {
 	float: left;
 	border: 2px solid #fed7e2;
 	background-color: #fed7e2;
+}
+
+#portfolio .inner .pfwrap.wrap2 .txtBox hr {
+	width: 120px;
+	height: 1px;
+	float: left;
+	border: 2px solid #000030;
+	background-color: #000030;
+}
+
+#portfolio .inner .pfwrap.wrap3 .txtBox hr {
+	width: 120px;
+	height: 1px;
+	float: left;
+	border: 2px solid #000;
+	background-color: #000;
 }
 
 #portfolio .inner .pfwrap .txtBox .viewport {
@@ -910,6 +935,26 @@ figure.snap.hover figcaption {
   transition: width 250ms;
 }
 
+#portfolio .inner .pfwrap .txtBox .pfbtn.btn2 .btnBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 50px;
+  background: linear-gradient(-90deg,#000030 -50%,#3658bf 100%);
+  transition: width 250ms;
+}
+
+#portfolio .inner .pfwrap .txtBox .pfbtn.btn3 .btnBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 50px;
+  background: linear-gradient(-90deg,#000 -50%,#5d5d5d 100%);
+  transition: width 250ms;
+}
+
 #portfolio .inner .pfwrap .txtBox .pfbtn.btn1 a {
   display: inline-block;
   position: absolute;
@@ -926,6 +971,46 @@ figure.snap.hover figcaption {
   box-sizing: border-box;
   border: 2px solid;
   border-image: linear-gradient(-90deg,#c76fa5 -50%,#fbb6ce 100%);
+  border-image-slice: 1;
+  transition: all 200ms;
+}
+
+#portfolio .inner .pfwrap .txtBox .pfbtn.btn2 a {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 50px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: #000;
+  line-height: 46px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-image: linear-gradient(-90deg,#000030 -50%,#3658bf 100%);
+  border-image-slice: 1;
+  transition: all 200ms;
+}
+
+#portfolio .inner .pfwrap .txtBox .pfbtn.btn3 a {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 50px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: #000;
+  line-height: 46px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-image: linear-gradient(-90deg,#000 -50%,#5d5d5d 100%);
   border-image-slice: 1;
   transition: all 200ms;
 }
@@ -949,4 +1034,14 @@ figure.snap.hover figcaption {
 #portfolio .inner .wrap1 .imgBox .imgBg img {
 	width: 700px;
 	margin: -100px 0 0 200px;
+}
+
+#portfolio .inner .wrap2 .imgBox .imgBg img {
+	width: 650px;
+	margin: -120px 0 0 200px;
+}
+
+#portfolio .inner .wrap3 .imgBox .imgBg img {
+	width: 700px;
+	margin: -110px 0 0 200px;
 }
