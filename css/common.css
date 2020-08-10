@@ -1045,3 +1045,69 @@ figure.snap.hover figcaption {
 	width: 700px;
 	margin: -110px 0 0 200px;
 }
+
+/* Contact start */
+#contact {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  margin-top: 130px;
+	margin-bottom: 40px;
+}
+
+#contact h1 {
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 50px;
+  color: #353535;
+  text-align: center;
+}
+
+#contact hr{
+  width: 150px;
+  border: 2px solid #EAEAEA;
+}
+
+.info_me {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+.contact_contents {
+	background-color: #F6F6F6;
+	width: 100%;
+	height: 370px;
+	margin: auto;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.mycontact ul {
+	font-family: 'Jua', sans-serif;
+	padding-top: 20px;
+}
+
+.mycontact ul li {
+	line-height: 50px;
+	font-size: 25px;
+}
+
+.mycontact ul li img {
+	width: 15px;
+	height: 15px;
+	padding-right: 10px;
+}
+
+.sendmail {
+	font-family: 'Overpass Mono', monospace;
+	font-size: 16px;
+}
+
+.sendmail:hover {
+	text-decoration: underline;
+}
+
+.sendmail a li img {
+	width: 50px;
+	height: 50px;
+}
