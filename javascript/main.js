@@ -1,7 +1,5 @@
 $(window).scroll(function(){
-
     $(".arrow").css("opacity", 1 - $(window).scrollTop() / 800);  // 화면 스크롤 수치만큼 화살표 흐려짐(1-스크롤 된 만큼 / 800)
-
   });
 
 
@@ -14,3 +12,9 @@ var bannerOffset = $('.menu').offset();
       $('.menu').removeClass('menuFixed');
     }
   });
+
+  // footer - Current Date & Time
+  setInterval(function () {
+    $(".date").text(moment().tz("Asia/seoul").format("MMM Do"));
+    $(".clock").text(moment().tz("Asia/seoul").format("HH:mm:ss"));
+  }, 0);
