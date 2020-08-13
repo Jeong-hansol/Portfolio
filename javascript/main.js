@@ -23,3 +23,20 @@ var bannerOffset = $('.menu').offset();
     $(".date").text(moment().tz("Asia/seoul").format("MMM Do"));
     $(".clock").text(moment().tz("Asia/seoul").format("HH:mm:ss"));
   }, 0);
+
+  // niceScroll(페이지 자동 스크롤)
+  jQuery.fn.niceScroll = function() {
+  	$(this).click(function(e) {
+  		var h = $(this).attr('href'),
+  		target;
+
+  		if (h.charAt(0) == '#' && h.length > 1 && (target = $(h)).length > 0){
+  			var pos = Math.max(target.offset().top, 0);
+  			e.preventDefault();
+  			$('body,html').animate({
+  				scrollTop : pos
+  			}, 'slow', 'swing');
+  		}
+  	});
+  };
+  $('.scroll').niceScroll();
