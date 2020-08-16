@@ -821,7 +821,7 @@ figure.snap.hover figcaption {
 }
 
 /* PORTFOLIO */
-#main .port_title {
+.port_title {
   margin: 0 auto;
   width: 100%;
   height: 100%;
@@ -829,7 +829,7 @@ figure.snap.hover figcaption {
 	margin-bottom: 80px;
 }
 
-#main .port_title h1 {
+.port_title h1 {
   font-family: 'Encode Sans', sans-serif;
   font-size: 50px;
   color: #353535;
@@ -841,116 +841,100 @@ figure.snap.hover figcaption {
   border: 2px solid #EAEAEA;
 }
 
-#portfolio {
-	width: 95%;
-	height: 3000px;
-	margin: auto;
-	overflow: hidden;
+.portfolio_wrap {
+  width: 95%;
+	height: 100%;
 	background-color: #F6F6F6;
+	margin: auto;
 }
 
-#portfolio .inner .pfwrap {
-	position: relative;
-	height: 500px;
-	margin-top: 200px;
+.portfolio_contents {
+  width: 100%;
+	max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
 }
 
-#portfolio .inner .pfwrap.wrap2 {
-	margin-top: 250px;
-	margin-left: 50px;
+.rocket_wrap {
+  width: 100%;
+  height: 100%;
+	min-height: 560px;
+  padding-top: 100px;
 }
 
-#portfolio .inner .pfwrap.wrap3 {
-	margin-top: 210px;
+.rocket_pic {
+  width: 50%;
+  height: 100%;
+  float: left;
 }
 
-#portfolio .inner .pfwrap .imgBox {
-	position: absolute;
-	top: 0;
-	width: 60%;
+.rocket_pic img {
+	width: 600px;
+	height: 450px;
 }
 
-#portfolio .inner .pfwrap .imgBox .imgBg {
-	width: 100%;
-	height: 500px;
+.rocket_text {
+  width: 45%;
+  height: 100%;
+  float: right;
+  color: #000;
+  font-size: 18px;
+  position: relative;
+	margin-top: -30px;
 }
 
-#portfolio .inner .pfwrap .txtBox {
-	position: absolute;
-	top: 10px;
-}
-
-#portfolio .inner .pfwrap .txtBox .headline {
+.rocket_text .title {
 	font-family: 'Jua', sans-serif;
-	font-size: 40px;
-	text-align: right;
-	margin-top: -90px;
-	padding-bottom: 10px;
+  font-size: 40px;
+  position: relative;
 }
 
-#portfolio .inner .pfwrap .txtBox .lightHeadline {
+.rocket_text .subtitle {
 	font-family: 'Sora', sans-serif;
 	font-size: 18px;
 	letter-spacing: 1px;
-	margin: 16px 0 24px;
-	text-align: right;
+	margin-top: -25px;
 }
 
-#portfolio .inner .pfwrap.wrap1 .txtBox hr {
-	width: 120px;
+.rocket_text hr {
+	width: 100px;
 	height: 1px;
 	float: left;
 	border: 2px solid #fed7e2;
 	background-color: #fed7e2;
+	margin-top: -5px;
 }
 
-#portfolio .inner .pfwrap.wrap2 .txtBox hr {
-	width: 120px;
-	height: 1px;
-	float: left;
-	border: 2px solid #000030;
-	background-color: #000030;
-}
-
-#portfolio .inner .pfwrap.wrap3 .txtBox hr {
-	width: 120px;
-	height: 1px;
-	float: left;
-	border: 2px solid #000;
-	background-color: #000;
-}
-
-#portfolio .inner .pfwrap .txtBox .viewport {
+.rocket_text .viewport {
 	font-family: 'Sora', sans-serif;
 	font-size: 18px;
-	padding-top: 40px;
-	padding-bottom: 20px;
+	margin-top: -1px;
 }
 
-#portfolio .inner .pfwrap .txtBox .viewport span {
-	font-size: 15px;
+.rocket_text .viewport span {
+	font-size: 16px;
 	padding-left: 40px;
 }
 
-#portfolio .inner .pfwrap .txtBox .palette {
+.rocket_text .palette {
 	font-family: 'Sora', sans-serif;
 	font-size: 18px;
-	padding-bottom: 20px;
+	display: inline;
 }
 
-#portfolio .inner .pfwrap .txtBox .palette .palette_img {
+.rocket_text .palette_img {
 	display: inline-block;
-	margin-left: 57px;
+	padding-left: 60px;
+	margin-top: 5px;
 }
 
-#portfolio .inner .pfwrap .txtBox .palette .palette_img img {
+.rocket_text .palette_img img {
 	width: 20px;
 	height: 20px;
-	margin-bottom: -3px;
-	padding-left: 3px;
 }
 
-#portfolio .inner .pfwrap .txtBox .caption {
+.rocket_text .story {
 	font-family: 'Noto Sans KR', sans-serif;
 	font-size: 15px;
 	font-weight: 300;
@@ -958,14 +942,14 @@ figure.snap.hover figcaption {
 	line-height: 30px;
 }
 
-#portfolio .inner .pfwrap .txtBox .pfbtn {
+.pfbtn1 {
   position: relative;
-  width: 200px;
+  width: 100px;
   height: 50px;
-	left: 30%;
+	margin: auto;
 }
 
-#portfolio .inner .pfwrap .txtBox .pfbtn.btn1 .btnBg {
+.pfbtn1.btn1 .btnBg {
   position: absolute;
   top: 0;
   left: 0;
@@ -975,27 +959,7 @@ figure.snap.hover figcaption {
   transition: width 250ms;
 }
 
-#portfolio .inner .pfwrap .txtBox .pfbtn.btn2 .btnBg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 50px;
-  background: linear-gradient(-90deg,#000030 -50%,#3658bf 100%);
-  transition: width 250ms;
-}
-
-#portfolio .inner .pfwrap .txtBox .pfbtn.btn3 .btnBg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 50px;
-  background: linear-gradient(-90deg,#000 -50%,#5d5d5d 100%);
-  transition: width 250ms;
-}
-
-#portfolio .inner .pfwrap .txtBox .pfbtn.btn1 a {
+.pfbtn1.btn1 a {
   display: inline-block;
   position: absolute;
   top: 0;
@@ -1015,7 +979,120 @@ figure.snap.hover figcaption {
   transition: all 200ms;
 }
 
-#portfolio .inner .pfwrap .txtBox .pfbtn.btn2 a {
+.pfbtn1:hover .btnBg {
+	width: 200px;
+}
+
+.pfbtn1:hover a {
+	color: #fff;
+}
+
+.oppacar_wrap {
+  width: 100%;
+	height: 100%;
+	min-height: 560px;
+  padding-top: 125px;
+}
+
+.oppacar_pic {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+.oppacar_pic img {
+	width: 650px;
+	height: 450px;
+}
+
+.oppacar_text {
+  width: 50%;
+  height: 100%;
+  float: left;
+  color: #000;
+  font-size: 18px;
+  position: relative;
+}
+
+.oppacar_text .title {
+	font-family: 'Jua', sans-serif;
+  font-size: 40px;
+  position: relative;
+}
+
+.oppacar_text .subtitle {
+	font-family: 'Sora', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin-top: -25px;
+	margin-right: 90px;
+  float: right;
+}
+
+.oppacar_text hr {
+	width: 100px;
+	height: 1px;
+	border: 2px solid #000030;
+	background-color: #000030;
+	float: right;
+	margin-right: 90px;
+	margin-top: -8px;
+}
+
+.oppacar_text .viewport {
+	font-family: 'Sora', sans-serif;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.oppacar_text .viewport span {
+	font-size: 16px;
+	padding-left: 40px;
+}
+
+.oppacar_text .palette {
+	font-family: 'Sora', sans-serif;
+	font-size: 18px;
+	display: inline;
+}
+
+.oppacar_text .palette_img {
+	display: inline-block;
+	padding-left: 60px;
+	margin-top: 5px;
+}
+
+.oppacar_text .palette_img img {
+	width: 20px;
+	height: 20px;
+}
+
+.oppacar_text .story {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	margin: 16px 0 35px;
+	line-height: 30px;
+}
+
+.pfbtn2 {
+  position: relative;
+  width: 200px;
+  height: 50px;
+	left: 30%;
+}
+
+.pfbtn2.btn2 .btnBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 50px;
+  background: linear-gradient(-90deg,#000030 -50%,#3658bf 100%);
+  transition: width 250ms;
+}
+
+.pfbtn2.btn2 a {
   display: inline-block;
   position: absolute;
   top: 0;
@@ -1035,7 +1112,116 @@ figure.snap.hover figcaption {
   transition: all 200ms;
 }
 
-#portfolio .inner .pfwrap .txtBox .pfbtn.btn3 a {
+.pfbtn2:hover .btnBg {
+	width: 200px;
+}
+
+.pfbtn2:hover a {
+	color: #fff;
+}
+
+.seiko_wrap {
+  width: 1200px;
+  height: 100%;
+	min-height: 560px;
+  padding-top: 125px;
+}
+
+.seiko_pic {
+	width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.seiko_pic img {
+	width: 620px;
+	height: 450px;
+}
+
+.seiko_text {
+  width: 45%;
+  height: 100%;
+  float: right;
+  color: #000;
+  font-size: 18px;
+  position: relative;
+}
+
+.seiko_text .title {
+	font-family: 'Jua', sans-serif;
+  font-size: 40px;
+  position: relative;
+}
+
+.seiko_text .subtitle {
+	font-family: 'Sora', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin-top: -25px;
+}
+
+.seiko_text hr {
+	width: 100px;
+	height: 1px;
+	float: left;
+	border: 2px solid #000;
+	background-color: #000;
+	margin-top: -5px;
+}
+
+.seiko_text .viewport {
+	font-family: 'Sora', sans-serif;
+	font-size: 18px;
+}
+
+.seiko_text .viewport span {
+	font-size: 16px;
+	padding-left: 40px;
+}
+
+.seiko_text .palette {
+	font-family: 'Sora', sans-serif;
+	font-size: 18px;
+	display: inline;
+}
+
+.seiko_text .palette_img {
+	display: inline-block;
+	padding-left: 60px;
+	margin-top: 5px;
+}
+
+.seiko_text .palette_img img {
+	width: 20px;
+	height: 20px;
+}
+
+.seiko_text .story {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	margin: 16px 0 35px;
+	line-height: 30px;
+}
+
+.pfbtn3 {
+  position: relative;
+  width: 200px;
+  height: 50px;
+	left: 30%;
+}
+
+.pfbtn3.btn3 .btnBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 50px;
+  background: linear-gradient(-90deg,#000 -50%,#5d5d5d 100%);
+  transition: width 250ms;
+}
+
+.pfbtn3.btn3 a {
   display: inline-block;
   position: absolute;
   top: 0;
@@ -1055,35 +1241,12 @@ figure.snap.hover figcaption {
   transition: all 200ms;
 }
 
-#portfolio .inner .pfwrap .txtBox .pfbtn:hover .btnBg {
+.pfbtn3:hover .btnBg {
 	width: 200px;
 }
 
-#portfolio .inner .pfwrap .txtBox .pfbtn:hover a {
+.pfbtn3:hover a {
 	color: #fff;
-}
-
-#portfolio .inner .pfwrap .imgBox {
-	right: 5%;
-}
-
-#portfolio .inner .pfwrap .txtBox {
-	right: 55%;
-}
-
-#portfolio .inner .wrap1 .imgBox .imgBg img {
-	width: 700px;
-	margin: -100px 0 0 200px;
-}
-
-#portfolio .inner .wrap2 .imgBox .imgBg img {
-	width: 650px;
-	margin: -120px 0 0 200px;
-}
-
-#portfolio .inner .wrap3 .imgBox .imgBg img {
-	width: 700px;
-	margin: -110px 0 0 200px;
 }
 
 /* Contact start */
