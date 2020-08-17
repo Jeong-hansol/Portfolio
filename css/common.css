@@ -10,14 +10,15 @@
 @import url(https://fonts.googleapis.com/css2?family=Sora&display=swap);
 
 
-*{
+* {
 	padding: 0;
 	list-style: none;
 	text-decoration: none;
 }
 
 body {
-  margin: 2px;
+  margin: 0;
+	overflow-x: hidden;
 }
 
 a {
@@ -86,8 +87,75 @@ a {
   text-align: center;
   margin-top: 50px;
 }
+
+/* Mobile Menu */
+#menu-btn {
+  position: fixed;
+	right: 0;
+  width: 30px;
+	padding: 10px;
+  transition: all .2s ease-out;
+	z-index: 1;
+	display: none;
+}
+
+#menu-btn:hover {
+	cursor: pointer;
+}
+
+#menu-btn:hover .menu-line {
+	background-color: #fff;
+}
+
+#menu-btn:active {
+	box-shadow: 0 0 5px black;
+	background-color: #fff;
+}
+
+.menu-btn-line {
+  height: 4px;
+  background-color: #007eff;
+  margin-bottom: 6px;
+}
+
+#menu-media {
+  position: fixed;
+	top: 45px;
+	right: 10px;
+  border: 1px solid #fff;
+  width: 150px;
+  padding: 1em;
+	z-index: 1;
+	background: #007eff;
+}
+
+#menu-media ul {
+	padding: 0;
+	margin: 0;
+}
+
+#menu-media ul li {
+  list-style-type: none;
+  left: 0;
+  padding: 10px;
+  transition: all .3s ease-out;
+}
+
+#menu-media ul li a {
+	color: #fff;
+}
+
+#menu-media ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#menu-media ul li:active {
+  background-color: #00bbff;
+}
+/* Mobile Menu End */
 
-/* Section - menu */
+/* menu */
 #main .menu {
   margin: 0 auto;
 }
