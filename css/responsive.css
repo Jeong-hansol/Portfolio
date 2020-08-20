@@ -80,4 +80,522 @@
     height: 25px;
     padding-left: -2px;
   }
+
+  /* about_me */
+  #main .about_me h1 {
+    font-size : 35px;
+  }
+
+  .about_me hr{
+    width: 100px;
+  }
+
+  #main .about_me .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #main .about_me .profile_img img {
+    width: 300px;
+    height: 400px;
+  }
+
+  .biography {
+    margin-top: 10px;
+  }
+
+  .biography ul li {
+    font-size: 15px;
+  }
+
+  /* VISION */
+  #main .vision {
+    margin-top: 50px;
+  }
+
+  #main .vision h1 {
+    font-size: 20px;
+  }
+
+  #main .vision p {
+    font-size: 15px;
+  }
+
+  /* WHAT CAN I DO */
+  #can_title {
+    text-align: center;
+  }
+
+  #can_title h1 {
+    font-size: 25px;
+  }
+
+  #can_contents {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #can_contents .title {
+    font-size: 20px;
+  }
+
+  .all_contents {
+    width: 70%;
+    height: 100%;
+  }
+
+  .development, .design, .others {
+    width: 100%;
+  }
+
+  .list_development, .list_design, .list_others {
+    font-size: 10px;
+  }
+
+  .prg_title, .prg_number {
+  	font-size: 12px;
+  }
+
+  /* PERSONALITY */
+  #per_title h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .progress-circle {
+    width: 100px;
+    height: 100px;
+  }
+
+  .progress-circle h5 {
+  	font-size: 12px;
+  }
+
+  /* Certificate */
+  #cer_title h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  figure.snip {
+    max-width: 250px;
+    max-height: 165px;
+    font-size: 15px;
+  }
+
+  figure.snap {
+    max-width: 170px;
+    max-height: 270px;
+    font-size: 15px;
+  }
+
+  /* PORTFOLIO */
+  .port_title h1 {
+    font-size: 35px;
+  }
+
+  .port_title hr {
+    width: 100px;
+  }
+
+  .portfolio_contents {
+    width: 100%;
+  }
+
+  .rocket_wrap {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+  }
+
+  .rocket_pic {
+    width: 100%;
+  }
+
+  .rocket_pic img {
+    width: 100%;
+    height: 70%;
+  }
+
+  .rocket_text {
+    width: 95%;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .rocket_text .title {
+    font-size: 20px;
+  }
+
+  .rocket_text .subtitle {
+    font-size: 10px;
+    margin-top: -8px;
+  }
+
+  .rocket_text hr {
+    float: none;
+    margin-top: 10px;
+    width: 80px;
+    border: 1px solid #fed7e2;
+  }
+
+  .rocket_text .viewport {
+    font-size: 14px;
+  }
+
+  .rocket_text .viewport span {
+  	font-size: 12px;
+  }
+
+  .rocket_text .palette {
+  	font-size: 14px;
+  }
+
+  .rocket_text .palette_img {
+  	padding-left: 38px;
+  }
+
+  .rocket_text .palette_img img {
+  	width: 13px;
+  	height: 13px;
+  }
+
+  .rocket_text .story {
+  	font-size: 10px;
+  }
+
+  .pfbtn1 {
+    width: 100px;
+    height: 30px;
+  }
+
+  .pfbtn1.btn1 .btnBg {
+    height: 30px;
+  }
+
+  .pfbtn1.btn1 a {
+    width: 100px;
+    height: 30px;
+    font-size: 7px;
+    line-height: 27px;
+    letter-spacing: 1px;
+  }
+
+  .pfbtn1:hover .btnBg {
+  	width: 100px;
+  }
+
+  .oppacar_wrap {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+  }
+
+  .oppacar_pic {
+    width: 100%;
+  }
+
+  .oppacar_pic img {
+    width: 100%;
+    height: 70%;
+  }
+
+  .oppacar_text {
+    width: 95%;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .oppacar_text .title {
+    font-size: 20px;
+  }
+
+  .oppacar_text .subtitle {
+    font-size: 10px;
+    margin-top: -8px;
+    margin-right: 0;
+    float: none;
+  }
+
+  .oppacar_text hr {
+    float: none;
+    width: 60px;
+    border: 1px solid #000030;
+    margin: auto;
+    margin-top: -20px;
+  }
+
+  .oppacar_text .viewport {
+    font-size: 14px;
+  }
+
+  .oppacar_text .viewport span {
+  	font-size: 12px;
+  }
+
+  .oppacar_text .palette {
+  	font-size: 14px;
+  }
+
+  .oppacar_text .palette_img {
+  	padding-left: 38px;
+  }
+
+  .oppacar_text .palette_img img {
+  	width: 13px;
+  	height: 13px;
+  }
+
+  .oppacar_text .story {
+  	font-size: 10px;
+  }
+
+  .pfbtn2 {
+    width: 100px;
+    height: 30px;
+    left: 0;
+    margin: auto;
+  }
+
+  .pfbtn2.btn2 .btnBg {
+    height: 30px;
+  }
+
+  .pfbtn2.btn2 a {
+    width: 100px;
+    height: 30px;
+    font-size: 7px;
+    line-height: 27px;
+    letter-spacing: 1px;
+  }
+
+  .pfbtn2:hover .btnBg {
+  	width: 100px;
+  }
+
+  .seiko_wrap {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+  }
+
+  .seiko_pic {
+    width: 100%;
+  }
+
+  .seiko_pic img {
+    width: 100%;
+    height: 70%;
+  }
+
+  .seiko_text {
+    width: 95%;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .seiko_text .title {
+    font-size: 20px;
+  }
+
+  .seiko_text .subtitle {
+    font-size: 10px;
+    margin-top: -8px;
+  }
+
+  .seiko_text hr {
+    float: none;
+    margin-top: 10px;
+    width: 70px;
+    border: 1px solid #000;
+  }
+
+  .seiko_text .viewport {
+    font-size: 14px;
+  }
+
+  .seiko_text .viewport span {
+  	font-size: 12px;
+  }
+
+  .seiko_text .palette {
+  	font-size: 14px;
+  }
+
+  .seiko_text .palette_img {
+  	padding-left: 55px;
+  }
+
+  .seiko_text .palette_img img {
+  	width: 13px;
+  	height: 13px;
+  }
+
+  .seiko_text .story {
+  	font-size: 10px;
+  }
+
+  .pfbtn3 {
+    width: 100px;
+    height: 30px;
+    left: 0;
+    margin: auto;
+  }
+
+  .pfbtn3.btn3 .btnBg {
+    height: 30px;
+  }
+
+  .pfbtn3.btn3 a {
+    width: 100px;
+    height: 30px;
+    font-size: 7px;
+    line-height: 27px;
+    letter-spacing: 1px;
+  }
+
+  .pfbtn3:hover .btnBg {
+  	width: 100px;
+  }
+
+  .hansol_wrap {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+  }
+
+  .hansol_pic {
+    width: 100%;
+  }
+
+  .hansol_pic img {
+    width: 100%;
+    height: 70%;
+  }
+
+  .hansol_text {
+    width: 95%;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .hansol_text .title {
+    font-size: 20px;
+  }
+
+  .hansol_text .subtitle {
+    font-size: 10px;
+    margin-top: -8px;
+    margin-right: 0;
+    float: none;
+  }
+
+  .hansol_text hr {
+    float: none;
+    width: 60px;
+    border: 1px solid #00bbff;
+    margin: auto;
+    margin-top: -20px;
+  }
+
+  .hansol_text .viewport {
+    font-size: 14px;
+  }
+
+  .hansol_text .viewport span {
+  	font-size: 12px;
+  }
+
+  .hansol_text .palette {
+  	font-size: 14px;
+  }
+
+  .hansol_text .palette_img {
+  	padding-left: 38px;
+  }
+
+  .hansol_text .palette_img img {
+  	width: 13px;
+  	height: 13px;
+  }
+
+  .hansol_text .story {
+  	font-size: 10px;
+  }
+
+  .pfbtn4 {
+    width: 100px;
+    height: 30px;
+    left: 0;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .pfbtn4.btn4 .btnBg {
+    height: 30px;
+  }
+
+  .pfbtn4.btn4 a {
+    width: 100px;
+    height: 30px;
+    font-size: 7px;
+    line-height: 27px;
+    letter-spacing: 1px;
+  }
+
+  .pfbtn4:hover .btnBg {
+  	width: 100px;
+  }
+
+  #contact h1 {
+    font-size: 35px;
+  }
+
+  #contact hr {
+    width: 100px;
+  }
+
+  .info_me {
+    font-size: 12px;
+  }
+
+  .mycontact ul li {
+    font-size: 20px;
+  }
+
+  .sendmail {
+    font-size : 14px;
+  }
+
+  .sendmail li img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer .current .date {
+    font-size: 18px;
+  }
+
+  .footer .current .clock {
+    font-size: 25px;
+  }
+
+  .footer .copyright {
+    font-size: 10px;
+  }
 }
