@@ -562,6 +562,35 @@
   	width: 100px;
   }
 
+  .morepage .more_cont {
+    width: 90%;
+  }
+
+  .morepage .more_cont p {
+    width: 80%;
+    font-size: 9px;
+  }
+
+  .morepage .more_cont p:nth-child(3)+a {
+    font-size: 10px;
+  }
+
+  .morepage .more_cont h4, .morepage01 .more_cont span, .morepage02 .more_cont span, .morepage03 .more_cont span, .morepage04 .more_cont span {
+    font-size: 10px;
+  }
+
+  .morepage .more_cont .mobile_img img {
+    width: 70%;
+  }
+
+  .morepage .more_cont h1 strong {
+    font-size: 15px;
+  }
+
+  .morepage .more_cont .arrangement {
+    font-size: 9px;
+  }
+
   #contact h1 {
     font-size: 35px;
   }
