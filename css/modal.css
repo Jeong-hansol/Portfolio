@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css?family=Nanum+Gothic);
+@import url(https://fonts.googleapis.com/css2?family=Red+Rose&display=swap);
+
+.morepage {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 9999;
+}
+
+.morepage .more_cont {
+  position: relative;
+  width: 75%;
+  height: 85%;
+  top: 5%;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow-y: scroll;
+  color: #000;
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+  padding-bottom: 50px;
+}
+
+.more_cont::-webkit-scrollbar {
+  display: none;
+}
+
+.morepage .more_cont .close {
+  outline: none;
+  border: none;
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/close_btn.png");
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background-color: #fff;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.morepage .more_cont p {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-weight: 800;
+  font-family: 'Nanum Gothic', sans-serif;
+  line-height: 1.7;
+  font-size: 13px;
+}
+
+.morepage .more_cont p img {
+  width: 100%;
+}
+
+.morepage .more_cont p:nth-child(3)+a {
+  display: inline-block;
+  margin-top: 50px;
+  font-weight: 800;
+  padding: 10px 30px;
+  font-size: 12px;
+}
+
+.morepage .more_cont h4 strong {
+  font-weight: 800;
+}
+
+.morepage .more_cont h4 {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.morepage01 .more_cont span {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 20px;
+  background-color: #fbb6ce;
+}
+
+.morepage02 .more_cont span {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 20px;
+  background-color: #000030;
+  color: #fff;
+}
+
+.morepage03 .more_cont span {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+.morepage04 .more_cont span {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 20px;
+  background-color: #00bbff;
+  color: #fff;
+}
+
+.morepage01 .more_cont a {
+  background-color: #fbb6ce;
+  margin-bottom: 50px;
+}
+
+.morepage01 .more_cont p strong {
+  background-color: #fed7e2;
+}
+
+.morepage02 .more_cont a {
+  background-color: #000030;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.morepage02 .more_cont p strong {
+  background-color: #3658bf;
+  color: #fff;
+}
+
+.morepage03 .more_cont a {
+  background-color: #000;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.morepage03 .more_cont p strong {
+  background-color: #5d5d5d;
+  color: #fff;
+}
+
+.morepage04 .more_cont a {
+  background-color: #00bbff;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.morepage04 .more_cont p strong {
+  background-color: #80ddff;
+}
+
+.morepage .more_cont h5 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.morepage .more_cont .mobile_img img {
+  width: 40%;
+}
+
+.morepage .more_cont h1 {
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.morepage .more_cont h1 strong {
+  font-family: 'Red Rose', cursive;
+  font-size: 20px;
+  font-weight: 800;
+  background-color: #ececec;
+  padding: 5px 15px;
+  color: #ff7878;
+}
+
+.morepage .more_cont .arrangement {
+  margin-top: -10px;
+  font-size: 11px;
+  text-align: left;
+}
