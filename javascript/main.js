@@ -46,3 +46,38 @@ var bannerOffset = $('.menu').offset();
   	});
   };
   $('.scroll').niceScroll();
+
+  // 포트폴리오 view more 페이지
+  $(".pfbtn1.btn1 a").click(function (evt) {
+      evt.preventDefault();
+      $(".morepage01").fadeIn();
+  });
+
+  $(".pfbtn2.btn2 a").click(function (evt) {
+      evt.preventDefault();
+      $(".morepage02").fadeIn();
+  });
+
+  $(".pfbtn3.btn3 a").click(function (evt) {
+      evt.preventDefault();
+      $(".morepage03").fadeIn();
+  });
+
+  $(".pfbtn4.btn4 a").click(function (evt) {
+      evt.preventDefault();
+      $(".morepage04").fadeIn();
+  });
+
+  $(".close,.morepage").click(function () {
+      $(".morepage").fadeOut();
+  });
+
+  $(document).keyup(function (evt) {
+      if (evt.which == 27) { $(".morepage").hide(); };
+  }); // ESC 키로 닫기
+
+  $(".morepage .more_cont").on({
+      "click": function (evt) {
+          evt.stopPropagation();
+      }
+  }); // 창 밖 클릭 시에만 화면 닫기
