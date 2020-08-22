@@ -91,7 +91,7 @@ a {
 
 /* Mobile Menu */
 #menu-btn {
-  position: fixed;
+  position: absolute;
 	right: 0;
   width: 30px;
 	padding: 10px;
@@ -115,7 +115,7 @@ a {
 
 .menu-btn-line {
   height: 4px;
-  background-color: #007eff;
+  background-color: #fff;
   margin-bottom: 6px;
 }
 
