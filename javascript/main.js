@@ -7,6 +7,9 @@ $("#menu-media").hide();
 $("#menu-btn").click(function(){
 $("#menu-media").slideToggle();
 });
+$("#menu-media").click(function(){
+  $("#menu-media").hide();
+});
 
 
 $(window).scroll(function(){
