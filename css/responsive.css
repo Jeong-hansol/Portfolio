@@ -12,6 +12,17 @@
     top: 40%
   }
 
+  .back-top {
+    padding: 10px 12px 10px 12px;
+    margin: 10px;
+  	font-size: 9px;
+  }
+
+  .back-top span {
+  	font-size: 6px;
+  	font-weight: 400;
+  }
+
   .full_menu {
     position: relative;
   }
