@@ -17,6 +17,24 @@ $(window).scroll(function(){
   });
 
 
+// Top Button 동작
+  var $backToTop = $(".back-top");
+  $backToTop.hide();
+
+  $(window).on('scroll', function() {
+    if ($(this).scrollTop() > 150) {
+      $backToTop.fadeIn();
+    } else {
+      $backToTop.fadeOut();
+    }
+  });
+
+  $backToTop.on('click', function(e) {
+    $("html, body").animate({scrollTop: 0}, 500);
+  });
+
+
+
 var bannerOffset = $('.menu').offset();
   $(window).scroll( function() {  // window에 스크롤링이 발생하면
     if($(document).scrollTop() > bannerOffset.top ) {   // 위치 및 사이즈를 파악하여 미리 정한 css class를 add 또는 remove 한다.
