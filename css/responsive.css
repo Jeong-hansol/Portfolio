@@ -1,3 +1,647 @@
+/* media for less than 900 screen */
+@media only screen and (max-width: 900px){
+  * {
+      padding: 0;
+  }
+
+  html, body {
+    overflow-x: hidden;
+  }
+
+  #load img {
+    left: 45%;
+    top: 40%
+  }
+
+  .back-top {
+    padding: 10px 13px 10px 13px;
+    margin: 15px;
+  	font-size: 11px;
+  }
+
+  .back-top span {
+  	font-size: 8px;
+  	font-weight: 400;
+  }
+
+  .full_menu {
+    position: relative;
+  }
+
+  #main .menu h3 {
+    display: none;
+  }
+
+  .menuFixed {
+    position: relative;
+  }
+
+  #menu-btn {
+    display: block;
+  }
+
+  .menu-content ul {
+    position: absolute;
+    display: none;
+  }
+
+  .menu-content li a {
+    font-size: 5px;
+  }
+
+  .main_logo img {
+    width: 80px;
+    height: 80px;
+    padding-top: 30px;
+  }
+
+  #main h2 {
+    font-size: 30px;
+    margin-top: -20px;
+  }
+
+  #main .main_image p {
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 30px;
+  }
+
+  .wrap hr{
+    color: white;
+    margin-top: 20px;
+    background-color: white;
+    width: 160px;
+    border: solid 0.7px white;
+  }
+
+  .my_sns {
+    margin: 0 auto;
+    width: 320px;
+  }
+
+  .my_sns li {
+    width: 42px;
+    height: 45px;
+    text-align: center;
+    margin-left: 35px;
+    margin-right: 30px;
+  }
+
+  .my_sns li a img {
+    width: 35px;
+    height: 35px;
+    padding-left: -2px;
+  }
+
+  /* about_me */
+  #main .about_me h1 {
+    font-size : 45px;
+  }
+
+  .about_me hr{
+    width: 120px;
+  }
+
+  #main .about_me .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #main .about_me .profile_img img {
+    width: 350px;
+    height: 450px;
+  }
+
+  .biography {
+    margin-top: 10px;
+  }
+
+  .biography ul li {
+    font-size: 18px;
+  }
+
+  /* VISION */
+  #main .vision {
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+
+  #main .vision h1 {
+    font-size: 28px;
+  }
+
+  #main .vision p {
+    font-size: 15px;
+  }
+
+  /* WHAT CAN I DO */
+  #can_title {
+    text-align: center;
+  }
+
+  #can_title h1 {
+    font-size: 32px;
+  }
+
+  #can_contents {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #can_contents .title {
+    font-size: 25px;
+  }
+
+  .all_contents {
+    width: 70%;
+    height: 100%;
+  }
+
+  .development, .design, .others {
+    width: 100%;
+  }
+
+  .list_development, .list_design, .list_others {
+    font-size: 12px;
+  }
+
+  .prg_title, .prg_number {
+  	font-size: 14px;
+  }
+
+  /* PERSONALITY */
+  #per_title h1 {
+    font-size: 33px;
+    text-align: center;
+  }
+
+  .progress-circle {
+    width: 100px;
+    height: 100px;
+  }
+
+  .progress-circle h5 {
+  	font-size: 12px;
+  }
+
+  /* Certificate */
+  #cer_title h1 {
+    font-size: 33px;
+    text-align: center;
+  }
+
+  figure.snip {
+    max-width: 250px;
+    max-height: 165px;
+    font-size: 15px;
+  }
+
+  figure.snap {
+    max-width: 170px;
+    max-height: 270px;
+    font-size: 15px;
+  }
+
+  /* PORTFOLIO */
+  .port_title h1 {
+    font-size: 45px;
+  }
+
+  .port_title hr {
+    width: 150px;
+  }
+
+  .portfolio_contents {
+    width: 100%;
+  }
+
+  .rocket_wrap {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+  }
+
+  .rocket_pic {
+    width: 100%;
+  }
+
+  .rocket_pic img {
+    width: 100%;
+    height: 70%;
+  }
+
+  .rocket_text {
+    width: 95%;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .rocket_text .title {
+    font-size: 30px;
+  }
+
+  .rocket_text .subtitle {
+    font-size: 15px;
+    margin-top: -8px;
+  }
+
+  .rocket_text hr {
+    float: none;
+    margin-top: 10px;
+    width: 100px;
+    border: 1px solid #fed7e2;
+  }
+
+  .rocket_text .viewport {
+    font-size: 16px;
+  }
+
+  .rocket_text .viewport span {
+  	font-size: 14px;
+  }
+
+  .rocket_text .palette {
+  	font-size: 16px;
+  }
+
+  .rocket_text .palette_img {
+  	padding-left: 42px;
+  }
+
+  .rocket_text .palette_img img {
+  	width: 15px;
+  	height: 15px;
+  }
+
+  .rocket_text .story {
+  	font-size: 12px;
+  }
+
+  .pfbtn1 {
+    width: 120px;
+    height: 40px;
+  }
+
+  .pfbtn1.btn1 .btnBg {
+    height: 40px;
+  }
+
+  .pfbtn1.btn1 a {
+    width: 120px;
+    height: 40px;
+    font-size: 10px;
+    line-height: 33px;
+    letter-spacing: 1px;
+  }
+
+  .pfbtn1:hover .btnBg {
+  	width: 120px;
+  }
+
+  .oppacar_wrap {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+  }
+
+  .oppacar_pic {
+    width: 100%;
+  }
+
+  .oppacar_pic img {
+    width: 100%;
+    height: 70%;
+  }
+
+  .oppacar_text {
+    width: 95%;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .oppacar_text .title {
+    font-size: 30px;
+  }
+
+  .oppacar_text .subtitle {
+    font-size: 15px;
+    margin-top: -8px;
+    margin-right: 0;
+    float: none;
+  }
+
+  .oppacar_text hr {
+    float: none;
+    width: 80px;
+    border: 1px solid #000030;
+    margin: auto;
+    margin-top: -20px;
+  }
+
+  .oppacar_text .viewport {
+    font-size: 16px;
+  }
+
+  .oppacar_text .viewport span {
+  	font-size: 14px;
+  }
+
+  .oppacar_text .palette {
+  	font-size: 16px;
+  }
+
+  .oppacar_text .palette_img {
+  	padding-left: 30px;
+  }
+
+  .oppacar_text .palette_img img {
+  	width: 15px;
+  	height: 15px;
+  }
+
+  .oppacar_text .story {
+  	font-size: 12px;
+  }
+
+  .pfbtn2 {
+    width: 120px;
+    height: 40px;
+    left: 0;
+    margin: auto;
+  }
+
+  .pfbtn2.btn2 .btnBg {
+    height: 40px;
+  }
+
+  .pfbtn2.btn2 a {
+    width: 120px;
+    height: 40px;
+    font-size: 10px;
+    line-height: 33px;
+    letter-spacing: 1px;
+  }
+
+  .pfbtn2:hover .btnBg {
+  	width: 120px;
+  }
+
+  .seiko_wrap {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+  }
+
+  .seiko_pic {
+    width: 100%;
+  }
+
+  .seiko_pic img {
+    width: 100%;
+    height: 70%;
+  }
+
+  .seiko_text {
+    width: 95%;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .seiko_text .title {
+    font-size: 30px;
+  }
+
+  .seiko_text .subtitle {
+    font-size: 15px;
+    margin-top: -8px;
+  }
+
+  .seiko_text hr {
+    float: none;
+    margin-top: 10px;
+    width: 80px;
+    border: 1px solid #000;
+  }
+
+  .seiko_text .viewport {
+    font-size: 16px;
+  }
+
+  .seiko_text .viewport span {
+  	font-size: 14px;
+  }
+
+  .seiko_text .palette {
+  	font-size: 16px;
+  }
+
+  .seiko_text .palette_img {
+  	padding-left: 60px;
+  }
+
+  .seiko_text .palette_img img {
+  	width: 15px;
+  	height: 15px;
+  }
+
+  .seiko_text .story {
+  	font-size: 12px;
+  }
+
+  .pfbtn3 {
+    width: 120px;
+    height: 40px;
+    left: 0;
+    margin: auto;
+  }
+
+  .pfbtn3.btn3 .btnBg {
+    height: 40px;
+  }
+
+  .pfbtn3.btn3 a {
+    width: 120px;
+    height: 40px;
+    font-size: 10px;
+    line-height: 33px;
+    letter-spacing: 1px;
+  }
+
+  .pfbtn3:hover .btnBg {
+  	width: 120px;
+  }
+
+  .hansol_wrap {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+  }
+
+  .hansol_pic {
+    width: 100%;
+  }
+
+  .hansol_pic img {
+    width: 100%;
+    height: 70%;
+  }
+
+  .hansol_text {
+    width: 95%;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .hansol_text .title {
+    font-size: 30px;
+  }
+
+  .hansol_text .subtitle {
+    font-size: 15px;
+    margin-top: -8px;
+    margin-right: 0;
+    float: none;
+  }
+
+  .hansol_text hr {
+    float: none;
+    width: 80px;
+    border: 1px solid #00bbff;
+    margin: auto;
+    margin-top: -20px;
+  }
+
+  .hansol_text .viewport {
+    font-size: 16px;
+  }
+
+  .hansol_text .viewport span {
+  	font-size: 14px;
+  }
+
+  .hansol_text .palette {
+  	font-size: 16px;
+  }
+
+  .hansol_text .palette_img {
+  	padding-left: 30px;
+  }
+
+  .hansol_text .palette_img img {
+  	width: 15px;
+  	height: 15px;
+  }
+
+  .hansol_text .story {
+  	font-size: 12px;
+  }
+
+  .pfbtn4 {
+    width: 120px;
+    height: 40px;
+    left: 0;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .pfbtn4.btn4 .btnBg {
+    height: 40px;
+  }
+
+  .pfbtn4.btn4 a {
+    width: 120px;
+    height: 40px;
+    font-size: 10px;
+    line-height: 33px;
+    letter-spacing: 1px;
+  }
+
+  .pfbtn4:hover .btnBg {
+  	width: 120px;
+  }
+
+  .morepage .more_cont {
+    width: 90%;
+  }
+
+  .morepage .more_cont p {
+    width: 80%;
+    font-size: 12px;
+  }
+
+  .morepage .more_cont p:nth-child(3)+a {
+    font-size: 12px;
+  }
+
+  .morepage .more_cont h4, .morepage01 .more_cont span, .morepage02 .more_cont span, .morepage03 .more_cont span, .morepage04 .more_cont span {
+    font-size: 12px;
+  }
+
+  .morepage .more_cont .mobile_img img {
+    width: 70%;
+  }
+
+  .morepage .more_cont h1 strong {
+    font-size: 18px;
+  }
+
+  .morepage .more_cont .arrangement {
+    font-size: 10px;
+  }
+
+  #contact h1 {
+    font-size: 45px;
+  }
+
+  #contact hr {
+    width: 120px;
+  }
+
+  .info_me {
+    font-size: 15px;
+  }
+
+  .mycontact ul li {
+    font-size: 25px;
+  }
+
+  .sendmail {
+    font-size : 16px;
+  }
+
+  .sendmail li img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .footer .current .date {
+    font-size: 20px;
+  }
+
+  .footer .current .clock {
+    font-size: 28px;
+  }
+
+  .footer .copyright {
+    font-size: 12px;
+  }
+}
+
 @media only screen and (max-width: 600px){
   * {
       padding: 0;
