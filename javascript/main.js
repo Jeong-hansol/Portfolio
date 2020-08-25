@@ -45,6 +45,15 @@ var bannerOffset = $('.menu').offset();
     }
   });
 
+  // 페이지 스크롤되면 프로그레스바 실행
+  $(window).on("scroll",function(){
+    if($(this).scrollTop()<$("#can_contents").offset().top-$(this).height()){
+        $(".progress-bar").fadeOut();
+    } else {
+      $(".progress-bar").fadeIn();
+    }
+  });
+
   // footer - Current Date & Time
   setInterval(function () {
     $(".date").text(moment().tz("Asia/seoul").format("MMM Do"));
