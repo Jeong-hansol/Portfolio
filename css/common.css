@@ -281,6 +281,9 @@ a {
 	background-position: top center;
 	background-attachment: fixed; /* 패럴렉스 */
 	background-size: cover;
+	-moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
 }
 
 .main-content {
