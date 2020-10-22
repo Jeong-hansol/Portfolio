@@ -110,6 +110,14 @@
   color: #fff;
 }
 
+.morepage05 .more_cont span {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 20px;
+  background-color: #37302f;
+  color: #fff;
+}
+
 .morepage01 .more_cont a {
   background-color: #fbb6ce;
   margin-bottom: 50px;
@@ -149,6 +157,16 @@
 
 .morepage04 .more_cont p strong {
   background-color: #80ddff;
+}
+
+.morepage05 .more_cont a {
+  background-color: #37302f;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.morepage05 .more_cont p strong {
+  background-color: #9f8d8a;
 }
 
 .morepage .more_cont h5 {
